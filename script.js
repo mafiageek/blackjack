@@ -125,7 +125,7 @@ var determineWinner = function () {
   } else if ((cardArrSum(playerCardArr) < cardArrSum(computerCardArr))) { 
     winner = "Computer";
   } else {
-    winner = "No One"
+    winner = "No one"
   }
 
   return winner;
