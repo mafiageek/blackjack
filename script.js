@@ -184,5 +184,7 @@ const stay = function(input) {
   console.log(computerCardArr);
   playerCardArr = [];
   computerCardArr = [];
+  playingCards = createDeck();
+  shuffledDeck = shuffleCards(playingCards);
   return myOutputValue;
 }
